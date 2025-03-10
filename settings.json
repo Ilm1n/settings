@@ -71,5 +71,6 @@
             "comments": true,
             "strings": true
         }
-    }
+    },
+    "editor.linkedEditing": true
 }
