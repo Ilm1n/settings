@@ -1,8 +1,23 @@
 {
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "extensions.autoCheckUpdates": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
+
     "git.autoRepositoryDetection": "subFolders",
     "breadcrumbs.enabled": true,
 
-    "debug.autoExpandLazyVariables": true,
+    "debug.autoExpandLazyVariables": "on",
     "debug.inlineValues": "on",
 
     "python.languageServer": "Pylance",
@@ -21,7 +36,12 @@
             "name": "django",
             "depth": 3,
             "includeAllSymbols": true
-        }
+        },
+        {
+            "name": "aiogram",
+            "depth": 3,
+            "includeAllSymbols": true
+        },
     ],
       
     "[python]": {
